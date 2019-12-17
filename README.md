@@ -5,5 +5,5 @@ Under construction.
 
 The models are trained, validated and benchmarked with **UK Biobank brain MRI images, 14,502-subject release**.
 
-Cite:
+To cite:
 Under construction.
