@@ -9,3 +9,5 @@ To cite:
 Accurate brain age prediction with lightweight deep neural networks
 Han Peng, Weikang Gong, Christian F. Beckmann, Andrea Vedaldi, Stephen M Smith
 *bioRxiv 2019.12.17.879346*; doi: https://doi.org/10.1101/2019.12.17.879346
+
+Model input shape: \[batch_size, 1, 160, 192, 160]
