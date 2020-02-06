@@ -5,7 +5,7 @@ Under construction.
 
 The models are trained, validated and benchmarked with **UK Biobank brain MRI images, 14,503-subject release**.
 
-Pretrained weights for SFCN:
+Pretrained weights for SFCN (no subject level information):
 ./brain_age/run_20190719_00_epoch_best_mae.p
 
 Example:
