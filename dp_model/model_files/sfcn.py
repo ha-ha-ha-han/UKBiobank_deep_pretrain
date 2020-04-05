@@ -64,10 +64,3 @@ class SFCN(nn.Module):
         return out
 
 
-# Example
-if __name__ == '__main__':
-    model = SFCN()
-    model = torch.nn.DataParallel(model)
-    # This is to be modified with the path of saved weights
-    p_ = './run_20190719_00_epoch_best_mae.p'
-    model.load_state_dict(torch.load(p_))
