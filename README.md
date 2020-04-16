@@ -8,7 +8,8 @@ The models are trained, validated and benchmarked with **UK Biobank brain MRI im
 Pretrained weights for SFCN (no subject level information):
 ./brain_age/run_20190719_00_epoch_best_mae.p
 
-Example:
+Examples:\
+Checkout the file [**examples.ipynb**](https://github.com/ha-ha-ha-han/UKBiobank_deep_pretrain/blob/master/examples.ipynb)
 ```python
 model = SFCN()
 model = torch.nn.DataParallel(model)
