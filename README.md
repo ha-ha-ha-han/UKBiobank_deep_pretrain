@@ -12,7 +12,7 @@ Model input shape: \[batch_size, 1, 160, 192, 160]
 | File | Model | No. training subjects | Test MAE (years) |Validation MAE (yrs) |Train MAE (yrs) | Val-Train MAE gap (yrs) |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |./brain_age/run_20190719_00_epoch_best_mae.p| SFCN (SGD) |	12,949 |2.14±0.05 | 2.18±0.04 |	1.36±0.03 |	0.83±0.06 |
-
+(As summarized in Table 1 in the [manuscript](https://doi.org/10.1101/2019.12.17.879346))
 
 ## Examples
 Checkout the file [**examples.ipynb**](https://github.com/ha-ha-ha-han/UKBiobank_deep_pretrain/blob/master/examples.ipynb)
