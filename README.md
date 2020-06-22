@@ -1,14 +1,20 @@
 # UKBiobank_deep_pretrain
 Pretrained neural networks for UK Biobank brain MRI images. SFCN, 3D-ResNet etc.
 
-Under construction.
+Under construction. 
 
 The models are trained, validated and benchmarked with **UK Biobank brain MRI images, 14,503-subject release**.
 
-Pretrained weights for SFCN (no subject level information):
-./brain_age/run_20190719_00_epoch_best_mae.p
+Model input shape: \[batch_size, 1, 160, 192, 160]
 
-Examples:\
+## Pretrained weights (no subject level information) 
+
+| File | Model | No. training subjects | Test MAE (years) |Validation MAE (yrs) |Train MAE (yrs) | Val-Train MAE gap (yrs) |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|./brain_age/run_20190719_00_epoch_best_mae.p| SFCN (SGD) |	12,949 |2.14±0.05 | 2.18±0.04 |	1.36±0.03 |	0.83±0.06 |
+
+
+## Examples
 Checkout the file [**examples.ipynb**](https://github.com/ha-ha-ha-han/UKBiobank_deep_pretrain/blob/master/examples.ipynb)
 ```python
 model = SFCN()
@@ -18,9 +24,9 @@ p_ = './run_20190719_00_epoch_best_mae.p'
 model.load_state_dict(torch.load(p_))
 ```
 
-To cite:
+## To cite
 Accurate brain age prediction with lightweight deep neural networks
 Han Peng, Weikang Gong, Christian F. Beckmann, Andrea Vedaldi, Stephen M Smith
 *bioRxiv 2019.12.17.879346*; doi: https://doi.org/10.1101/2019.12.17.879346
 
-Model input shape: \[batch_size, 1, 160, 192, 160]
+
