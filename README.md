@@ -32,6 +32,6 @@ https://www.fmrib.ox.ac.uk/ukbiobank/fbp/
 ## To cite
 Accurate brain age prediction with lightweight deep neural networks
 Han Peng, Weikang Gong, Christian F. Beckmann, Andrea Vedaldi, Stephen M Smith
-*bioRxiv 2019.12.17.879346*; doi: https://doi.org/10.1101/2019.12.17.879346
+*Medical Image Analysis* (2021); doi: https://doi.org/10.1016/j.media.2020.101871
 
 **Please consider star and/or watch this repository if you find it helpful, as we will keep updating this repository for pretrained models and weights.**
