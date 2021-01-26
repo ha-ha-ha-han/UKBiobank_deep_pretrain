@@ -1,3 +1,7 @@
+**Please star this repository if you like it :)**
+**Feel free to leave feedbacks and ask questions. We want to make the repository helpful for your research.**
+**We will keep updating this repository for pretrained models and weights.**
+
 # UKBiobank_deep_pretrain
 Pretrained neural networks for UK Biobank brain MRI images. SFCN, 3D-ResNet etc.
 
@@ -34,4 +38,4 @@ Accurate brain age prediction with lightweight deep neural networks
 Han Peng, Weikang Gong, Christian F. Beckmann, Andrea Vedaldi, Stephen M Smith
 *Medical Image Analysis* (2021); doi: https://doi.org/10.1016/j.media.2020.101871
 
-**Please consider star and/or watch this repository if you find it helpful, as we will keep updating this repository for pretrained models and weights.**
+
